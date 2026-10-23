@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte - TMDB</title>
+    <meta name="description" content="Contacta amb nosaltres: envia'ns els teus dubtes o suggeriments sobre el cercador de pel·lícules TMDB.">
+    <link rel="icon" href="imatgeLogo.png">
+</head>
+<body>
+    <header>
+        <a href="https://www.themoviedb.org/?language=ca">
+            <img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" alt="TMDB" height="25">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html#buscador">Buscador</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>CONTACTA AMB NOSALTRES</h1>
+            <p>Tens algun dubte o suggeriment? Escriu-nos.</p>
+        </section>
+
+        <section>
+            <article>
+                <p>NC</p>
+                <h2>Nom Cognom1 Cognom2</h2>
+                <p>Alumne/a · Desenvolupament web</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </article>
+
+            <form method="post">
+                <h2>Envia'ns un missatge</h2>
+
+                <label for="nom">Nom i cognoms</label>
+                <input type="text" id="nom" name="nom" placeholder="El teu nom complet" required>
+
+                <label for="correu">Correu electrònic</label>
+                <input type="email" id="correu" name="correu" placeholder="nom@exemple.cat" required>
+
+                <label for="assumpte">Assumpte</label>
+                <input type="text" id="assumpte" name="assumpte" placeholder="Sobre què ens vols escriure?" required>
+
+                <label for="missatge">Missatge</label>
+                <textarea id="missatge" name="missatge" rows="6" placeholder="Escriu aquí el teu missatge..." required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 The Movie Database — Maqueta de disseny</p>
+    </footer>
+</body>
+</html>
